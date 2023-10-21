@@ -1,0 +1,232 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header {
+  display:flex;
+  font-size: 200%;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  margin-left: -5vw;
+  margin-top: 1vw;
+  color: #1ED760;
+  /* background-image: linear-gradient(120deg,#1ED760,rgb(79, 120, 89)); */
+  /* background-clip: text;
+  color:transparent; */
+}
+
+.header img {
+  margin: 0 1%;
+  width: 5vw;
+  height: 5vw;
+  margin-right: 3%;
+}
+
+.logSp {
+  font-size: 150%;
+  color: #1ED760;
+
+}
+
+.Login {
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+.Logout-Button {
+  top:50%;
+  background-color:#ba2929;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  min-height: 30px;
+  min-width: 100px;
+  margin: 100px -20px 50px 0;
+}
+
+.logout {
+  margin-top:20px;
+}
+
+.Logout-Button:hover {
+  box-shadow:3px 3px 3px 0.5px rgb(172, 84, 84);
+}
+
+.intro {
+  text-align: left;
+  margin-left: 18%;
+  color: white;
+  /* background-image: linear-gradient(0deg,#1ED760,white);
+  background-clip: text;
+  color:transparent; */
+}
+
+.artist {
+  margin-top: 10vw;
+}
+
+.Artist-Head {
+  font-size: 210%;
+  margin: 1em 0em 0em -21.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+
+  background-image: linear-gradient(0deg,#1ED760,white);
+  background-clip: text;
+  color:transparent;
+}
+
+.Divider {
+  background-color:white;
+  height: 1px; 
+  border: none; 
+  margin: 7vw 8vw 0.3vw; 
+}
+
+.description {
+  font-size: 110%;
+  color: white;
+  margin: 0em 23em -4em -5em;
+  font-weight: bold;
+}
+
+.description2 {
+  font-size: 110%;
+  color: white;
+  margin: 0em 23.5em -4em -5em;
+  font-weight: bold;
+}
+
+.Input-Box {
+  padding: 8px;
+  margin: 10px 10px 10px -520px;
+  border-radius: 10px;
+}
+
+.Input-Box:hover {
+  box-shadow:0 0 10px 0.5px rgb(59, 78, 56);
+}
+
+.Input-Box, textarea {
+  font-family:inherit;
+  font-size: inherit;
+}
+
+.Input-Button {
+  top:50%;
+  background-color:#1ED760;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  min-height: 30px;
+  min-width: 100px;
+  margin: 100px -28px 0 0;
+}
+
+.Input-Button2 {
+  top:50%;
+  background-color:#1ED760;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  min-height: 30px;
+  min-width: 100px;
+  margin: 100px 18px 0 0;
+}
+
+.Input-Box2 {
+  padding: 8px;
+  margin: 10px 10px 10px -520px;
+  border-radius: 10px;
+}
+
+.Input-Box2:hover {
+  box-shadow:0 0 10px 0.5px rgb(59, 78, 56);
+}
+
+.Input-Box2, textarea {
+  font-family:inherit;
+  font-size: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .header img {
+    max-width: 10vw;
+    max-height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
+    margin-left: 5vw;
+    align-content: center;
+  }
+  .header {
+    font-size: 3vw;
+    margin-top: 1em;
+    margin-left: -5vw;
+    align-content: center;
+    padding-bottom: 1em;
+  }
+  .welcome {
+    font-size: 4vw;
+    margin-left: 2em;
+  }
+  .intro {
+    margin-left: 8%;
+    font-size: 3.5vw;
+    padding-bottom: -2em;
+  }
+  .Artist-Head {
+    font-size: 5vw;
+    margin-left: -12em;
+  }
+  .description {
+    font-size: 4vw;
+    margin: 0 -5.5em -4em -5.5em;
+  }
+
+  .description2 {
+    font-size: 4vw;
+    margin: 0 -5em -4em -5.5em;
+  }
+  
+  .Input-Form {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .Input-Box,
+  .Input-Button {
+  display: block;
+  }
+
+  .Input-Box {
+    margin: 5em 20em 1em 3em;
+    width: 150px;
+    height: 20px;
+  }
+
+  .Input-Button {
+    width: 100px;
+    margin: 0 0 0 3.7em;
+  }
+
+  .Input-Form2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Input-Box2{
+    margin: 5em 20em 1em 3em;
+    width: 200px;
+    height: 40px;
+  }
+
+  .Input-Button2 {
+    width: 100px;
+    margin: 0 0 0 3.7em;
+  }
+}
+

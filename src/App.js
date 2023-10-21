@@ -7,9 +7,6 @@ import GenreSearch from "./components/GenreSearch";
 import ArtistSearch from "./components/ArtistSearch";
 import createPlaylist from "./components/MakePlaylist";
 
-const CLIENT_ID = "71a21cb54fc34717ac2121989e0b733d";
-const CLIENT_SECRET = "e36d9c218de74fd387d2885fae71b438";
-const REDIRECT_URI = "http://localhost:3000";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 const SCOPE =

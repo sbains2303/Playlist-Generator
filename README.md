@@ -15,9 +15,13 @@ This Spotify Playlist Generator web application leverages the Spotify API to pro
 ## Features
 
 - Search for artist and generate new playlist according to their top tracks and user's own most listened to songs
+  
 - Get song recommendations based on selected genre
+  
 - Automatically creates private Spotify playlists with recommended songs
+  
 - Provides user authentication through Spotify login
+  
 - Adaptive responsive design alters display according to screen size
 
 ## Screenshots
